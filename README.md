@@ -1,8 +1,14 @@
 # ai-prompt-to-image-generator
 
+![Demo](https://cdn.sanjaysikdar.dev/assets/ai-prompt-to-image-generator/demo-1.png)
+
+
+Demo Video: https://youtu.be/iz-YDlU6j4Y
+
 ## Stack
 
-python: 3.12
+Python: 3.12.3
+
 Flask: 3.0.3
 
 ## How to Run?
@@ -32,7 +38,7 @@ pip install --upgrade setuptools
 pip install transformers diffusers flask pillow
 ```
 
--   Install PyTorch (CUDA)
+-   Install PyTorch ([CUDA](https://pytorch.org/get-started/locally/))
 
 ```bash
 # CUDA 12.1 (Windows)
